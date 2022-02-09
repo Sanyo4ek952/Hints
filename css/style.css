@@ -1,0 +1,67 @@
+@import "null.css";
+
+.wrapper {
+	min-height: 100%;
+	background-color: rgb(24, 21, 21);
+	color: rgb(233, 211, 211);
+}
+.header {
+}
+.main {
+}
+.font-family {
+}
+.sub-title {
+	display: inline-block;
+	background-color: rgb(76, 25, 196);
+	line-height: 23px;
+	color: rgb(0, 247, 255);
+	font-weight: 800;
+	padding: 0px 15px 0px;
+	border-radius: 30px;
+	margin: 10px;
+	box-shadow: 10px 5px 10px 0px rgb(249, 249, 250);
+	max-width: 80%;
+}
+.sub-title:active {
+	box-shadow: none;
+}
+.title {
+	font-size: 25px;
+	font-weight: 800;
+	color: rgb(0, 255, 242);
+}
+
+.visibility {
+	margin: 30px 0px 10px 30px;
+	background-color: rgb(7, 13, 65);
+	max-width: 70%;
+	padding: 40px;
+	display: none;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+}
+.sub-title:active + .visibility {
+	display: block;
+}
+.footer {
+}
+.orange {
+	color: rgb(255, 94, 0);
+}
+.green {
+	color: green;
+}
+.red {
+	color: red;
+	font-weight: 800;
+}
+.box {
+	display: flex;
+	position: relative;
+}
+.font {
+	flex: 1 1 50%;
+	border: 5px solid red;
+}

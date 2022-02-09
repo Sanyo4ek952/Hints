@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Hints</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header"></header>
+			<main class="main">
+				<div class="box">
+					<div class="font">
+						<h3 class="title">Свойства шрифта (Наследуются потомками)</h3>
+						<div class="font-family">
+							<h2 class="sub-title"><span class="orange">font-family:</span>Устанавливает семейство шрифта</h2>
+							<div class="visibility"><span class="orange">font-family:</span> <span class="green">"Имя шрифта", "Имя шрифта", ..., тип шрифта</span>
+								<p><span class="red">Например:</span> <span class="orange">font-family:</span> <span class="green">Arial, "Helvetica Neue", Helvetica, sans-serif;</span> </p>Если название шрифта состоит из 2х и более слов
+								заключаем название в кавычки <p>
+
+								</p>
+								<div class="list">Типы шрифта:
+									<ul>
+										<li>serif — шрифты с засечками (антиквенные), типа Times;</li>
+										<li>sans-serif — рубленные шрифты (шрифты без засечек или гротески),
+											типичный представитель — Arial;</li>
+										<li>cursive — курсивные шрифты;</li>
+										<li>fantasy — декоративные шрифты;</li>
+										<li>monospace — моноширинные шрифты, ширина каждого символа
+											в таком семействе одинакова (шрифт Courier).</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="font-size">
+							<h2 class="sub-title"><span class="orange">font-size:</span>Определяет размер шрифта элемента.</h2>
+							<div class="visibility"><span class="orange">font-size:</span> <span class="green">По умолчанию 16px</span>
+								<p>Например: <span class="orange">font-size:</span> <span class="green">20px;</span> </p>
+							</div>
+						</div>
+						<div class="font-style">
+							<h2 class="sub-title"><span class="orange">font-style:</span>Определяет начертание шрифта — обычное, курсивное или наклонное.</h2>
+							<div class="visibility"><span class="orange">font-style:</span> <span class="green">normal; - Обычное начертание текста.</span>
+								<p>Например: <span class="orange">font-style:</span> <span class="green">normal;</span> </p>
+								<div class="list">Начертания шрифта:
+									<ul>
+										<li><span class="green">italic</span> - Курсивное начертание. </li>
+										<li><span class="green">oblique</span> - Наклонное начертание. Курсив и наклонный
+											шрифт при всей их похожести не одно и то же. </li>
+									</ul>
+									<p>Курсив это специальный шрифт имитирующий рукописный,
+										наклонный же образуется путем наклона обычных знаков вправо.</p>
+								</div>
+							</div>
+						</div>
+						<div class="font-weight">
+							<h2 class="sub-title"><span class="orange">font-weight:</span>Устанавливает насыщенность шрифта.</h2>
+							<div class="visibility"><span class="orange">font-weight:</span> <span class="green">400 - normal</span>
+								<p>Например: <span class="orange">font-weight:</span> <span class="green">400;</span> </p>
+								<div class="list">Насыщенность шрифта:
+									<ul class="green">
+										<li>100 - thin</li>
+										<li>300 - Light</li>
+										<li>400 - normal</li>
+										<li>500 - medium</li>
+										<li>600 - semibold</li>
+										<li>700 - bold</li>
+										<li>900 - black</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="font property">
+						<h3 class="title">Свойства текста</h3>
+						<div class="color">
+							<h2 class="sub-title"><span class="orange">color:</span>Определяет цвет текста.</h2>
+							<div class="visibility"> <p>Для задания цветов обычно
+									используются числа в шестнадцатеричном коде,
+									либо с помощью RGB. </p>
+							</div>
+						</div>
+						<div class="text-align">
+							<h2 class="sub-title"><span class="orange">text-align:</span>Определяет горизонтальное выравнивание текста и строчный объектов
+								в пределах элемента. </h2>
+							<div class="visibility"><span class="orange">text-align:</span> <span class="green">left</span>
+								<p>Например: <span class="orange">text-align:</span> <span class="green">center</span> </p>
+								<ul>
+									<li><span class="green">center</span> - Выравнивание текста по центру.</li>
+									<li><span class="green">justify</span>- Выравнивание по ширине, что означает
+										одновременное выравнивание по левому и правому краю.
+										Чтобы произвести это действие браузер в этом случае
+										добавляет пробелы между словами.</li>
+									<li><span class="green">left</span> - Выравнивание текста по левому краю.</li>
+									<li><span class="green">right</span>- Выравнивание текста по правому краю.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="text-decoration">
+							<h2 class="sub-title"><span class="orange">text-decoration:</span>Добавляет оформление текста в виде его подчеркивания,
+								перечеркивания, линии над текстом и мигания.
+							</h2>
+							<div class="visibility">
+								<p>Одновременно можно применить более одного стиля, перечисляя значения через пробел.</p>
+								<p>Например: <span class="orange">text-decoration:</span> <span class="green">line-through;</span> </p>
+								<div class="list">Это свойство наследуется и может принимать значения:
+									<ul>
+										<li><span class="green">line-through</span>- Создает перечеркнутый текст.</li>
+										<li><span class="green">overline</span>- Линия проходит над текстом.</li>
+										<li><span class="green">underline</span>- Устанавливает подчеркнутый текст.</li>
+										<li><span class="green">none</span>- Отменяет все эффекты, в том числе и подчеркивания у ссылок, которое задано по умолчанию.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="text-shadow">
+							<h2 class="sub-title"><span class="orange">text-shadow:</span>Добавляет тень к тексту.</h2>
+							<div class="visibility"><span class="orange">text-shadow:</span> <span class="green">горизонтальное_смещение вертикальное_смещение размер цвет;
+									(наследуется)</span>
+								<div>Например: <span class="orange">text-shadow:</span> <span class="green">text-shadow: 1px 1px 1px #000;</span><p><span class="orange">text-shadow:</span> <span class="green">10px 10px 30px rgb(202, 17, 17), 5px 2px 10px rgb(10, 3, 3);</span></p>
+								</div>
+							</div>
+						</div>
+						<div class="text-transform">
+							<h2 class="sub-title"><span class="orange">text-transform:</span>Управляет преобразованием текста в заглавные или прописные символы.
+							</h2>
+							<div class="visibility">
+								<p>Например: <span class="orange">text-transform:</span> <span class="green">capitalize</span></p>
+								<ul>
+									<li><span class="green">capitalize</span>- Первый символ каждого слова в предложении будет заглавным. Остальные символы свой вид не меняют.</li>
+									<li><span class="green">lowercase</span>- Все символы текста становятся строчными (нижний регистр).</li>
+									<li><span class="green">uppercase</span>- Все символы текста становятся прописными (верхний регистр).</li>
+									<li><span class="green">none</span>- Не меняет регистр символов.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="line-height">
+							<h2 class="sub-title"><span class="orange">line-height:</span>Устанавливает межстрочный интервал текста.</h2>
+							<div class="visibility">Широко применяется при верстке текста.Если в макете указаны px делим это значение
+								на размер шрифта этого объекта и указываем через точку без единиц
+								<p>Например: <span class="orange">line-height:</span> <span class="green">1.5;</span> </p>
+								<p>Если в макете указаны px делим это значение
+									на размер шрифта этого объекта и указываем через точку без единиц</p>
+							</div>
+						</div>
+						<div class="text-indent">
+							<h2 class="sub-title"><span class="orange">text-indent:</span>Устанавливает величину отступа первой строки блока текста.</h2>
+							<div class="visibility">При меняется, если нам нужно создать что-то типа красной строки.
+								<p>Например: <span class="orange">text-indent:</span> <span class="green">15px;</span> </p>
+							</div>
+						</div>
+						<div class="letter-spacing">
+							<h2 class="sub-title"><span class="orange">letter-spacing:</span>Определяет интервал между символами (буквами).</h2>
+							<div class="visibility">Используется когда нужно разрядить текст.
+								<p>Например: <span class="orange">letter-spacing:</span> <span class="green">15px;</span> </p>
+							</div>
+						</div>
+						<div class="white-space">
+							<h2 class="sub-title"><span class="orange">white-space:</span>Управляет свойствами пробелов между словами.</h2>
+							<div class="visibility">Пименяется в основном со значением
+								<span class="green">nowrap</span> которое запрещает перенос строки. Таким образом весь текст отображается в одну строку и не ломается.
+								<p>начение <span class="green">normal</span> вернет все как было.</p>
+								<p>Например: <span class="orange">white-space:</span> <span class="green">nowrap;</span> </p>
+							</div>
+						</div>
+						<div class="word-spacing">
+							<h2 class="sub-title"><span class="orange">word-spacing:</span>Устанавливает интервал между словами.</h2>
+							<div class="visibility">
+
+								<p>Например: <span class="orange">word-spacing:</span> <span class="green">20px;</span> </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer class="footer"></footer>
+		</div>
+	</body>
+</html>
